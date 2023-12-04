@@ -1,0 +1,52 @@
+@media (min-width: 1184px) {
+  /* ---------- COMMON RULES ---------- */
+  /* ---------- COMMON RULES ---------- */
+  /* ---------- COMMON RULES ---------- */
+
+  .container {
+    width: 1134px;
+    margin: 0 auto;
+  }
+
+  /* ---------- MAIN ---------- */
+  /* ---------- MAIN ---------- */
+  /* ---------- MAIN ---------- */
+
+  /* ----- FIRST-DIV: NAV ----- */
+
+  .first-div-nav > div:nth-child(6) {
+    display: none;
+  }
+  .first-div-nav > div:nth-child(7) {
+    display: none;
+  }
+  .first-div-nav {
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+  }
+  .first-div-nav div {
+    width: 16%;
+    padding: 15px;
+  }
+
+  /* ----- FIRST-DIV: IMG, GEO ----- */
+
+  .first-div .div-img,
+  .first-div .div-geo {
+    width: 1134px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .first-div .div-geo {
+    margin-bottom: 40px;
+  }
+  .first-div .div-pics {
+    height: 430px;
+  }
+  .first-div .div-pics > img {
+    width: 652px;
+  }
+  .first-div .div-pics > div {
+    width: 482px;
+  }
+}

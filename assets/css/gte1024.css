@@ -1,0 +1,60 @@
+@media (min-width: 1024px) {
+  /* ---------- COMMON RULES ---------- */
+  /* ---------- COMMON RULES ---------- */
+  /* ---------- COMMON RULES ---------- */
+
+  .container {
+    margin: 0 25px;
+  }
+
+  /* ---------- HEADER ---------- */
+  /* ---------- HEADER ---------- */
+  /* ---------- HEADER ---------- */
+
+  header {
+    margin-bottom: 40px;
+  }
+  header .icon-menu_bars {
+    display: none;
+  }
+  header .div-rg {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+  }
+  header .div-rg nav {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* ---------- MAIN ---------- */
+  /* ---------- MAIN ---------- */
+  /* ---------- MAIN ---------- */
+
+  /* ----- FIRST-DIV: NAV ----- */
+
+  .first-div-nav {
+    margin-bottom: 20px;
+  }
+
+  /* ----- FIRST-DIV: IMG ----- */
+
+  .first-div .div-pics {
+    height: 370px;
+  }
+  .first-div .div-pics > img {
+    flex: 1;
+    width: 100%;
+  }
+  .first-div .div-pics > div {
+    width: 405px;
+  }
+
+  /* ----- FIRST SECTION ----- */
+
+  .first-section p {
+    width: 50%;
+  }
+}
