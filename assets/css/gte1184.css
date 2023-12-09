@@ -49,4 +49,21 @@
   .first-div .div-pics > div {
     width: 482px;
   }
+
+  /* ----- SUB SECTION ----- */
+  .sub-section {
+    margin-bottom: 80px;
+  }
+  .sub-section .div-1 {
+    max-width: 280px;
+    border: 1px solid black;
+  }
+  .sub-section .div-2 {
+    max-width: 840px;
+    border: 1px solid blue;
+    overflow: scroll;
+  }
+  .thumbnail {
+    width: 32%;
+  }
 }

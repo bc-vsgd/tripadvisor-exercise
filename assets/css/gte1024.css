@@ -57,4 +57,28 @@
   .first-section p {
     width: 50%;
   }
+
+  /* ----- SUB SECTION ----- */
+
+  .sub-section {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-bottom: 80px;
+  }
+  .sub-section .div-1 {
+    flex-shrink: 0;
+    width: 24vw;
+  }
+  .sub-section .div-2 {
+    flex-shrink: 0;
+    max-width: 69vw;
+    overflow: scroll;
+  }
+  .thumbnail-div {
+    gap: 15px;
+  }
+  .thumbnail {
+    width: 22vw;
+  }
 }
